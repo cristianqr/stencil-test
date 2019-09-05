@@ -1,0 +1,39 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.ndl-modal-default {
+    border: 1px solid #090;
+    $parent: '.ndl-modal';
+    #{$parent}-header {
+        background-color: #090;
+        padding: 0.5rem;
+        overflow: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        #{$parent}-title {
+            color: #ffffff;
+        }
+
+        #{$parent}-close-btn {
+            float: right;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #000;
+            text-shadow: 0 1px 0 #fff;
+            opacity: 0.5;
+        }
+    }
+
+    #{$parent}-body {
+        padding: 0.5rem 1rem;
+    }
+
+    #{$parent}-footer {
+        padding: 0.5rem 1rem;
+    }
+}

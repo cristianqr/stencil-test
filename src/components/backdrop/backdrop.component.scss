@@ -1,0 +1,12 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.ndl-backdrop {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.5;
+}
